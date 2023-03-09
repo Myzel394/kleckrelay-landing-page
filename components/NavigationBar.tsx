@@ -7,7 +7,7 @@ export default function NavigationBar(): ReactElement {
 	const {t} = useTranslation("navigation")
 
 	return (
-		<div className="sticky flex flex-row justify-center top-0 left-0">
+		<div className="fixed w-full flex flex-row justify-center top-0 left-0">
 			<nav className="w-11/12 mt-5">
 				<ul className="flex flex-row space-x-5">
 					{ROUTES.map(route => (
