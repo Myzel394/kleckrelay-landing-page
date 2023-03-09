@@ -1,6 +1,7 @@
 {
-  "title": "Say goodbye 👋 to email tracking",
   "landing": {
+    "title": "Say goodbye 👋 to email tracking",
+    "goToExplanation": "Learn More",
     "creationExplanation": "Create new Aliases for each Service you use",
     "privateMail": "your-email@example.com"
   }
