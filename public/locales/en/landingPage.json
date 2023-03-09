@@ -4,5 +4,24 @@
     "goToExplanation": "Learn More",
     "creationExplanation": "Create new Aliases for each Service you use",
     "privateMail": "your-email@example.com"
+  },
+  "explanation": {
+    "title": "You don't have to give your email to every service you use",
+    "creation": {
+      "title": "Create a random or a custom alias",
+      "description": "You can create totally random aliases or a custom one. Create as many aliases as you wish for each service you use."
+    },
+    "usage": {
+      "title": "Use your alias instead of your email",
+      "description": "When you sign up for a service, use your alias instead of your email. You can use your alias as many times as you wish. We recommend you to use a different alias for each service you use to provide the best privacy possible."
+    },
+    "forward": {
+      "title": "We will forward all emails to your real email",
+      "description": "We will forward all emails from your aliases to your real email. You can also reply to emails from your aliases and send emails from your aliases."
+    },
+    "reports": {
+      "title": "Get encrypted reports of your emails",
+      "description": "At your discretion, we will generate fully end-to-end encrypted reports of your emails."
+    }
   }
 }

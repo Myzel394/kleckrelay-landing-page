@@ -8,6 +8,8 @@ module.exports = {
 			colors: {
 				...colors,
 				background: "#060913",
+				backgroundLight: "#0c1125",
+				pitch: "#03050B",
 			},
 			fontFamily: {
 				sans: ["var(--font-montserrat)", ...fontFamily.sans],

@@ -10,7 +10,7 @@ export default function LandingPage(): ReactElement {
 	const {t} = useTranslation("landingPage")
 
 	return (
-		<section className="flex flex-row justify-center relative overflow-hidden w-screen">
+		<section className="flex flex-row justify-center relative w-screen">
 			<AmbientLight />
 			<div className="w-11/12 h-screen flex flex-row justify-between items-center">
 				<div className="basis-6/12 flex flex-col items-start space-y-10">
