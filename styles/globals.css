@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 html, body {
-    @apply min-h-screen bg-background;
+    @apply min-h-screen bg-background scroll-smooth;
 }
