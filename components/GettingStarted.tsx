@@ -8,7 +8,7 @@ export default function GettingStarted(): ReactElement {
 
 	return (
 		<section
-			className="w-full bg-pitch flex flex-col items-center justify-center h-screen relative"
+			className="w-full bg-pitch flex flex-col items-center justify-center h-screen relative overflow-hidden"
 			id="gettingStarted"
 		>
 			<AmbientLight />
