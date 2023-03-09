@@ -50,5 +50,9 @@
   "catch": {
     "title": "There's a catch though",
     "description": "It's not about money. It's not about usage. It's not about your data. It's about mouth propaganda. We don't charge any money to use KleckRelay and we want to keep it that way. If you like, you can donate any amount, but you don't need to. We would really appreciate it if you could tell your friends about KleckRelay. We want to make KleckRelay as popular as possible. The more people use KleckRelay, the more we can improve it. So please tell your friends about KleckRelay. Thank you very much and now have fun using it! :)"
+  },
+  "gettingStarted": {
+    "title": "Are you ready to bring your email privacy to the next level?",
+    "action": "Get Started"
   }
 }

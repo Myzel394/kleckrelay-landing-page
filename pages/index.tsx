@@ -5,6 +5,7 @@ import {serverSideTranslations} from "next-i18next/serverSideTranslations"
 import CatchScreen from "../components/CatchScreen"
 import ExplanationScreen from "../components/ExplanationScreen"
 import FeaturesScreen from "../components/FeaturesScreen"
+import GettingStarted from "../components/GettingStarted"
 import LandingScreen from "../components/LandingScreen"
 
 const Home: NextPage = () => {
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
 			<ExplanationScreen />
 			<FeaturesScreen />
 			<CatchScreen />
+			<GettingStarted />
 		</main>
 	)
 }
