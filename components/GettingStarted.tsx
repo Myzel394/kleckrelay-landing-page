@@ -1,5 +1,6 @@
 import {useTranslation} from "next-i18next"
 import {ReactElement} from "react"
+
 import AmbientLight from "./AmbientLight"
 
 export default function GettingStarted(): ReactElement {

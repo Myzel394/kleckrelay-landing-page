@@ -36,6 +36,7 @@ import {
 	SiZoom,
 } from "react-icons/si"
 import {IconType} from "react-icons"
+
 import {useFirstMountState, useIntervalEffect} from "@react-hookz/web"
 
 const SERVICES_ICONS: IconType[] = [
