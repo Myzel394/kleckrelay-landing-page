@@ -94,12 +94,12 @@ export default function ServicesRoulette(): ReactElement {
 
 	const visibleServices = [
 		services[index],
-		services[index + 1] || services[0],
-		services[index + 2] || services[1],
-		services[index + 3] || services[2],
-		services[index + 4] || services[3],
-		services[index + 5] || services[4],
-		services[index + 6] || services[5],
+		services[(index + 1) % services.length],
+		services[(index + 2) % services.length],
+		services[(index + 3) % services.length],
+		services[(index + 4) % services.length],
+		services[(index + 5) % services.length],
+		services[(index + 6) % services.length],
 	]
 
 	useIntervalEffect(() => {
