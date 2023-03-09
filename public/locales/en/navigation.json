@@ -2,8 +2,7 @@
   "routes": {
     "explanation": "How does it work?",
     "features": "Features",
-    "legacy": "Legacy Systems",
-    "security": "Security",
+    "catch": "What's the catch?",
     "gettingStarted": "Getting Started"
   }
 }

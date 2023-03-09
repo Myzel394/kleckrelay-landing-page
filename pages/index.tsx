@@ -3,6 +3,7 @@ import {useTranslation} from "next-i18next"
 import {serverSideTranslations} from "next-i18next/serverSideTranslations"
 
 import ExplanationScreen from "../components/ExplanationScreen"
+import FeaturesScreen from "../components/FeaturesScreen"
 import LandingScreen from "../components/LandingScreen"
 
 const Home: NextPage = () => {
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
 		<main className="overflow-x-hidden">
 			<LandingScreen />
 			<ExplanationScreen />
+			<FeaturesScreen />
 		</main>
 	)
 }

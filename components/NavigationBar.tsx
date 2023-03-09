@@ -1,7 +1,7 @@
 import {ReactElement} from "react"
 import {useTranslation} from "next-i18next"
 
-const ROUTES = ["explanation", "features", "legacy", "security", "gettingStarted"]
+const ROUTES = ["explanation", "features", "catch", "gettingStarted"]
 
 export default function NavigationBar(): ReactElement {
 	const {t} = useTranslation("navigation")

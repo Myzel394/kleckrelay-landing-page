@@ -21,7 +21,7 @@ export default function ExplanationScreen(): ReactElement {
 						<h1 className="text-6xl text-white font-bold">{t("explanation.title")}</h1>
 					</div>
 				</div>
-				<div className="bg-backgroundLight basis-5/12 flex flex-col space-y-4 rounded-2xl p-10">
+				<div className="bg-backgroundLight basis-4/12 flex flex-col space-y-4 rounded-2xl p-10">
 					<div className="flex flex-col space-y-4 items-center">
 						<div>
 							<FaMask className="text-white" size={48} />
@@ -66,22 +66,6 @@ export default function ExplanationScreen(): ReactElement {
 						<div>
 							<p className="text-base text-gray-300">
 								{t("explanation.forward.description")}
-							</p>
-						</div>
-					</div>
-					<Divider />
-					<div className="flex flex-col space-y-4 items-center">
-						<div>
-							<MdLock className="text-white" size={48} />
-						</div>
-						<div>
-							<h2 className="text-xl text-white text-bold">
-								{t("explanation.reports.title")}
-							</h2>
-						</div>
-						<div>
-							<p className="text-base text-gray-300">
-								{t("explanation.reports.description")}
 							</p>
 						</div>
 					</div>

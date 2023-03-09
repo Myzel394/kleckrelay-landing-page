@@ -18,10 +18,33 @@
     "forward": {
       "title": "We will forward all emails to your real email",
       "description": "We will forward all emails from your aliases to your real email. You can also reply to emails from your aliases and send emails from your aliases."
+    }
+  },
+  "features": {
+    "title": "Here are some features of KleckRelay",
+    "imageProxy": {
+      "title": "Proxy images",
+      "description": "Normally, when you open an email, your email client will download all images. This can be a privacy issue as the sender will be able to see your ip address. With our image proxy, we will download the images for you and serve them to you. This way, the sender will not be able to see your ip address."
     },
-    "reports": {
-      "title": "Get encrypted reports of your emails",
-      "description": "At your discretion, we will generate fully end-to-end encrypted reports of your emails."
+    "imageFormat": {
+      "title": "Convert images to your format",
+      "description": "We will convert all images to your preferred format. This way, you can save bandwidth and speed up your emails. You can also use legacy formats to support old email clients."
+    },
+    "expandUrls": {
+      "title": "Expand shortened URLs",
+      "description": "At your discretion, we will expand shortened URLs to their original form. This way, you can see where the link will lead you before clicking on it and reduce the risk of phishing."
+    },
+    "removeTrackers": {
+      "title": "Remove trackers",
+      "description": "We will remove trackers from your emails. You have a right to privacy and we will protect you."
+    },
+    "openSource": {
+      "title": "We are open source",
+      "description": "Our code is completely open and therefore you can verify that we are not doing anything bad with your data."
+    },
+    "encryption": {
+      "title": "End-To-End encryption",
+      "description": "If you wish, we will generate fully end-to-end encrypted reports of your emails. No one else except you will be able to read those reports. Not even we can decrypt them."
     }
   }
 }
