@@ -1,8 +1,8 @@
 {
-  "routes": {
-    "explanation": "How does it work?",
-    "features": "Features",
-    "catch": "What's the catch?",
-    "gettingStarted": "Getting Started"
-  }
+	"routes": {
+		"explanation": "How does it work?",
+		"features": "Features",
+		"catch": "What's the catch?",
+		"gettingStarted": "Getting Started"
+	}
 }

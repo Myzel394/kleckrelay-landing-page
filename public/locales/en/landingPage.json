@@ -1,58 +1,58 @@
 {
-  "landing": {
-    "title": "Say goodbye 👋 to email tracking",
-    "goToExplanation": "Learn More",
-    "creationExplanation": "Create new Aliases for every Service you use",
-    "privateMail": "your-email@example.com"
-  },
-  "explanation": {
-    "title": "You don't have to give your email to every service you use",
-    "creation": {
-      "title": "Create a random or a custom alias",
-      "description": "You can create totally random aliases or a custom one. Create as many aliases as you wish for each service you use."
-    },
-    "usage": {
-      "title": "Use your alias instead of your email",
-      "description": "When you sign up for a service, use your alias instead of your email. You can use your alias as many times as you wish. We recommend you to use a different alias for each service you use to provide the best privacy possible."
-    },
-    "forward": {
-      "title": "We will forward all emails to your real email",
-      "description": "We will forward all emails from your aliases to your real email. You can also reply to emails from your aliases and send emails from your aliases."
-    }
-  },
-  "features": {
-    "title": "Here are some features of KleckRelay",
-    "imageProxy": {
-      "title": "Proxy images",
-      "description": "Normally, when you open an email, your email client will download all images. This can be a privacy issue as the sender will be able to see your ip address. With our image proxy, we will download the images for you and serve them to you. This way, the sender will not be able to see your ip address."
-    },
-    "imageFormat": {
-      "title": "Convert images to your format",
-      "description": "We will convert all images to your preferred format. This way, you can save bandwidth and speed up your emails. You can also use legacy formats to support old email clients."
-    },
-    "expandUrls": {
-      "title": "Expand shortened URLs",
-      "description": "At your discretion, we will expand shortened URLs to their original form. This way, you can see where the link will lead you before clicking on it and reduce the risk of phishing."
-    },
-    "removeTrackers": {
-      "title": "Remove trackers",
-      "description": "We will remove trackers from your emails. You have a right to privacy and we will protect you."
-    },
-    "openSource": {
-      "title": "We are open source",
-      "description": "Our code is completely open and therefore you can verify that we are not doing anything bad with your data."
-    },
-    "encryption": {
-      "title": "End-To-End encryption",
-      "description": "If you wish, we will generate fully end-to-end encrypted reports of your emails. No one else except you will be able to read those reports. Not even we can decrypt them."
-    }
-  },
-  "catch": {
-    "title": "There's a catch though",
-    "description": "It's not about money. It's not about usage. It's not about your data. It's about mouth propaganda. We don't charge any money to use KleckRelay and we want to keep it that way. If you like, you can donate any amount, but you don't need to. We would really appreciate it if you could tell your friends about KleckRelay. We want to make KleckRelay as popular as possible. The more people use KleckRelay, the more we can improve it. So please tell your friends about KleckRelay. Thank you very much and now have fun using it! :)"
-  },
-  "gettingStarted": {
-    "title": "Are you ready to bring your email privacy to the next level?",
-    "action": "Get Started"
-  }
+	"landing": {
+		"title": "Say goodbye 👋 to email tracking",
+		"goToExplanation": "Learn More",
+		"creationExplanation": "Create new Aliases for every Service you use",
+		"privateMail": "your-email@example.com"
+	},
+	"explanation": {
+		"title": "You don't have to give your email to every service you use",
+		"creation": {
+			"title": "Create a random or a custom alias",
+			"description": "You can create totally random aliases or a custom one. Create as many aliases as you wish for each service you use."
+		},
+		"usage": {
+			"title": "Use your alias instead of your email",
+			"description": "When you sign up for a service, use your alias instead of your email. You can use your alias as many times as you wish. We recommend you to use a different alias for each service you use to provide the best privacy possible."
+		},
+		"forward": {
+			"title": "We will forward all emails to your real email",
+			"description": "We will forward all emails from your aliases to your real email. You can also reply to emails from your aliases and send emails from your aliases."
+		}
+	},
+	"features": {
+		"title": "Here are some features of KleckRelay",
+		"imageProxy": {
+			"title": "Proxy images",
+			"description": "Normally, when you open an email, your email client will download all images. This can be a privacy issue as the sender will be able to see your ip address. With our image proxy, we will download the images for you and serve them to you. This way, the sender will not be able to see your ip address."
+		},
+		"imageFormat": {
+			"title": "Convert images to your format",
+			"description": "We will convert all images to your preferred format. This way, you can save bandwidth and speed up your emails. You can also use legacy formats to support old email clients."
+		},
+		"expandUrls": {
+			"title": "Expand shortened URLs",
+			"description": "At your discretion, we will expand shortened URLs to their original form. This way, you can see where the link will lead you before clicking on it and reduce the risk of phishing."
+		},
+		"removeTrackers": {
+			"title": "Remove trackers",
+			"description": "We will remove trackers from your emails. You have a right to privacy and we will protect you."
+		},
+		"openSource": {
+			"title": "We are open source",
+			"description": "Our code is completely open and therefore you can verify that we are not doing anything bad with your data."
+		},
+		"encryption": {
+			"title": "End-To-End encryption",
+			"description": "If you wish, we will generate fully end-to-end encrypted reports of your emails. No one else except you will be able to read those reports. Not even we can decrypt them."
+		}
+	},
+	"catch": {
+		"title": "There's a catch though",
+		"description": "It's not about money. It's not about usage. It's not about your data. It's about mouth propaganda. We don't charge any money to use KleckRelay and we want to keep it that way. If you like, you can donate any amount, but you don't need to. We would really appreciate it if you could tell your friends about KleckRelay. We want to make KleckRelay as popular as possible. The more people use KleckRelay, the more we can improve it. So please tell your friends about KleckRelay. Thank you very much and now have fun using it! :)"
+	},
+	"gettingStarted": {
+		"title": "Are you ready to bring your email privacy to the next level?",
+		"action": "Get Started"
+	}
 }
