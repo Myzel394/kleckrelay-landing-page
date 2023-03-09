@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "explanation": "How does it work?",
+    "features": "Features",
+    "legacy": "Legacy Systems",
+    "security": "Security",
+    "gettingStarted": "Getting Started"
+  }
+}
