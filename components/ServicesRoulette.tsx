@@ -87,8 +87,9 @@ const INDEX_OPACITY_MAP: Record<string, string> = {
 	6: "opacity-0",
 }
 
+const services = SERVICES_ICONS.sort(() => 0.5 - Math.random())
+
 export default function ServicesRoulette(): ReactElement {
-	const services = useMemo(() => SERVICES_ICONS.sort(() => 0.5 - Math.random()), [])
 	const [index, setIndex] = useState<number>(0)
 	const [shouldAnimate, setShouldAnimate] = useState<boolean>(false)
 	const isFirstMount = useFirstMountState()
