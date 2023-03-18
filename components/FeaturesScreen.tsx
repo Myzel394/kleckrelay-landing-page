@@ -45,15 +45,15 @@ export default function FeaturesScreen(): ReactElement {
 
 	return (
 		<section
-			className="w-full bg-pitch flex flex-col justify-center h-screen bg-opacity-100 "
+			className="w-full bg-pitch flex flex-col items-center justify-center min-h-screen bg-opacity-100"
 			id="features"
 		>
 			<h1 className="text-6xl text-white font-bold text-center mb-28 mt-20">
 				{t("features.title")}
 			</h1>
-			<div className="w-11/12 h-screen flex-wrap flex flex-row justify-evenly items-stretch">
+			<div className="w-11/12 flex-wrap flex flex-row justify-evenly items-center xl:items-stretch">
 				{FEATURES.map(feature => (
-					<div key={feature.title} className="basis-4/12 shrink-0 px-10">
+					<div key={feature.title} className="xl:basis-4/12 my-5 xl:shrink-0 xl:px-10">
 						<div className="bg-backgroundLight flex flex-col items-center rounded-md p-5 space-y-4">
 							<div>
 								<feature.icon className="text-white" size={48} />

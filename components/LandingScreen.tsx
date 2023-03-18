@@ -11,16 +11,15 @@ export default function LandingPage(): ReactElement {
 	const {t} = useTranslation("landingPage")
 
 	return (
-		<section className="flex flex-row justify-center relative w-screen">
+		<section className="flex flex-col justify-center items-center relative w-screen">
 			<AmbientLight />
-			<div className="w-11/12 h-screen flex flex-row justify-between items-center">
-				<div className="basis-6/12 flex flex-col items-start space-y-10">
+			<div className="w-11/12 min-h-screen flex flex-col pt-28 xl:pt-0 lg:flex-row justify-between items-center">
+				<div className="basis-6/12 flex flex-col items-center space-y-10">
 					<div>
 						<h1
-							className="text-9xl font-bold bg-gradient-to-br from-cyan-200 to-blue-800 text-transparent bg-clip-text"
+							className="text-6xl xl:text-9xl text-center xl:text-left font-bold bg-gradient-to-br from-cyan-200 to-blue-800 text-transparent bg-clip-text"
 							style={
 								{
-									fontSize: "9rem",
 									lineHeight: "1.2",
 									"--tw-gradient-from": "#70D9F0",
 									"--tw-gradient-to": "#3D71F5",
@@ -39,7 +38,7 @@ export default function LandingPage(): ReactElement {
 						</a>
 					</div>
 				</div>
-				<div className="basis-4/12">
+				<div className="basis-4/12 mt-10">
 					<div className="flex flex-col items-center justify-center space-y-8">
 						<div>
 							<p className="text-white font-bold">
