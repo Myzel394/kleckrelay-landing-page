@@ -87,7 +87,7 @@ const INDEX_OPACITY_MAP: Record<string, string> = {
 	6: "opacity-0",
 }
 
-const services = SERVICES_ICONS.sort(() => 0.5 - Math.random())
+const services = Object.keys(SERVICES_ICONS).sort(() => 0.5 - Math.random())
 
 export default function ServicesRoulette(): ReactElement {
 	const [index, setIndex] = useState<number>(0)
@@ -119,17 +119,23 @@ export default function ServicesRoulette(): ReactElement {
 
 	return (
 		<div className="flex flex-row">
-			{visibleServices.map((Icon, iconIndex) => {
+			{visibleServices.map((iconName, iconIndex) => {
 				return (
 					<div
-						key={`${index}-${Icon.name}`}
+						key={`${index}-${iconName}`}
 						className={`px-5 text-white duration-500 ${
 							shouldAnimate
 								? INDEX_OPACITY_MAP[iconIndex - 1] + " -translate-x-full"
 								: INDEX_OPACITY_MAP[iconIndex]
 						}`}
 					>
-						<Icon size={48} />
+						{(() => {
+							const Icon = SERVICES_ICONS[
+								iconName as keyof typeof SERVICES_ICONS
+							] as IconType
+
+							return <Icon size={48} />
+						})()}
 					</div>
 				)
 			})}
