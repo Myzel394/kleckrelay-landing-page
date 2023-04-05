@@ -33,7 +33,7 @@ function MyApp({Component, pageProps}: AppProps) {
 					content="Create unlimited email aliases, remove trackers and preload images using KleckRelay"
 				/>
 				<meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
-				<meta property="og:image" content="/images/og-card.png" />
+				<meta property="og:image" content="www.kleckrelay.com/images/og-card.png" />
 				<meta property="twitter:card" content="summary_large_image" />
 				<meta property="twitter:site" content="@kleckrelay" />
 				<meta property="twitter:title" content="KleckRelay" />
@@ -41,7 +41,10 @@ function MyApp({Component, pageProps}: AppProps) {
 					property="twitter:description"
 					content="Create unlimited email aliases, remove trackers and preload images using KleckRelay"
 				/>
-				<meta property="twitter:image" content="/images/twitter-card.png" />
+				<meta
+					property="twitter:image"
+					content="www.kleckrelay.com/images/twitter-card.png"
+				/>
 			</Head>
 			<NavigationBar />
 			<Component {...pageProps} />
