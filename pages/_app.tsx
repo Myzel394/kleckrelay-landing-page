@@ -45,6 +45,7 @@ function MyApp({Component, pageProps}: AppProps) {
 					property="twitter:image"
 					content="https://www.kleckrelay.com/images/twitter-card.png"
 				/>
+				<meta name="theme-color" content="#3D71F5" />
 			</Head>
 			<NavigationBar />
 			<Component {...pageProps} />
