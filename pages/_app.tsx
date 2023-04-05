@@ -1,4 +1,4 @@
-import {appWithTranslation} from "next-i18next"
+import {appWithTranslation, useTranslation} from "next-i18next"
 import type {AppProps} from "next/app"
 import {Montserrat} from "next/font/google"
 import Head from "next/head"
@@ -15,6 +15,7 @@ function MyApp({Component, pageProps}: AppProps) {
 	return (
 		<div className={`${montserrat.variable} font-sans`}>
 			<Head>
+				{/* eslint-disable-next-line i18next/no-literal-string */}
 				<title>
 					KleckRelay - Create unlimited email aliases, remove trackers and preload images
 					using KleckRelay
