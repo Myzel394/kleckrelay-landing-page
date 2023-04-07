@@ -24,6 +24,7 @@ function MyApp({Component, pageProps}: AppProps) {
 					name="description"
 					content="Create unlimited email aliases, remove trackers and preload images using KleckRelay"
 				/>
+				<link rel="icon" type="image/x-icon" href="logo.ico" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta property="og:title" content="KleckRelay" />
 				<meta property="og:type" content="website" />
